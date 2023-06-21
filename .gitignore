@@ -1,0 +1,29 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/dist
+
+# misc
+.DS_Store
+.vscode
+.eslintcache
+workspace.code-workspace
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.firebase/
+.envrc
+remap-firestore-export-*/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
