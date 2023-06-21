@@ -109,6 +109,17 @@ const processKeycodes = (
   return allQmkKeycodes;
 };
 
+const convertToLabel = (name: string): string => {
+  const target =
+    name.startsWith('QK_') || name.startsWith('KC_') ? name.slice(3) : name;
+  const words = target.split('_');
+  return words
+    .map((word) => {
+      return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+    })
+    .join(' ');
+};
+
 const main = async (): Promise<void> => {
   const qmkKeycodesPerCategory = loadQmkKeycodesJsonFiles();
   const qmkKeycodes = processKeycodes(qmkKeycodesPerCategory);
@@ -120,13 +131,54 @@ const main = async (): Promise<void> => {
       (keyInfo) => keyInfo.keycodeInfo.code === code
     );
     if (keyInfo !== undefined) {
-      if (keyInfo.keycodeInfo.name.long !== qmkKeycode.key) {
-        console.log(
-          `Keycode name mismatch: ${keyInfo.keycodeInfo.name.long} vs ${qmkKeycode.key}`
-        );
-      }
+      newKeyInfoList.push({
+        desc:
+          keyInfo.desc ||
+          (qmkKeycode.label
+            ? qmkKeycode.label
+            : convertToLabel(qmkKeycode.key)),
+        keycodeInfo: {
+          code,
+          label:
+            keyInfo.keycodeInfo.label ||
+            (qmkKeycode.label
+              ? qmkKeycode.label
+              : convertToLabel(qmkKeycode.key)),
+          name: {
+            long: qmkKeycode.key,
+            short: qmkKeycode.aliases
+              ? qmkKeycode.aliases[0] || qmkKeycode.key
+              : qmkKeycode.key,
+          },
+          keywords: keyInfo.keycodeInfo.keywords,
+        },
+      });
+    } else {
+      newKeyInfoList.push({
+        desc: qmkKeycode.label
+          ? qmkKeycode.label
+          : convertToLabel(qmkKeycode.key),
+        keycodeInfo: {
+          code,
+          label: qmkKeycode.label
+            ? qmkKeycode.label
+            : convertToLabel(qmkKeycode.key),
+          name: {
+            long: qmkKeycode.key,
+            short: qmkKeycode.aliases
+              ? qmkKeycode.aliases[0] || qmkKeycode.key
+              : qmkKeycode.key,
+          },
+          keywords: [
+            qmkKeycode.label
+              ? qmkKeycode.label
+              : convertToLabel(qmkKeycode.key),
+          ],
+        },
+      });
     }
   }
+  fs.writeFileSync('output.json', JSON.stringify(newKeyInfoList, null, 2));
 };
 
 main().catch((error) => {

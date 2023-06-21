@@ -27,3 +27,4 @@ remap-firestore-export-*/
 firebase-debug.log
 firestore-debug.log
 ui-debug.log
+output.json
