@@ -1,0 +1,645 @@
+KC_NO	Ignore this key (NOOP)
+KC_TRANSPARENT	Use the next lowest non-transparent key
+KC_A	a and A
+KC_B	b and B
+KC_C	c and C
+KC_D	d and D
+KC_E	e and E
+KC_F	f and F
+KC_G	g and G
+KC_H	h and H
+KC_I	i and I
+KC_J	j and J
+KC_K	k and K
+KC_L	l and L
+KC_M	m and M
+KC_N	n and N
+KC_O	o and O
+KC_P	p and P
+KC_Q	q and Q
+KC_R	r and R
+KC_S	s and S
+KC_T	t and T
+KC_U	u and U
+KC_V	v and V
+KC_W	w and W
+KC_X	x and X
+KC_Y	y and Y
+KC_Z	z and Z
+KC_1	1 and !
+KC_2	2 and @
+KC_3	3 and #
+KC_4	4 and $
+KC_5	5 and %
+KC_6	6 and ^
+KC_7	7 and &
+KC_8	8 and *
+KC_9	9 and (
+KC_0	0 and )
+KC_ENTER	Return (Enter)
+KC_ESCAPE	Escape
+KC_BACKSPACE	Delete (Backspace)
+KC_TAB	Tab
+KC_SPACE	Spacebar
+KC_MINUS	- and _
+KC_EQUAL	= and +
+KC_LEFT_BRACKET	[ and {
+KC_RIGHT_BRACKET	] and }
+KC_BACKSLASH	\ and |
+KC_NONUS_HASH	Non-US # and ~
+KC_SEMICOLON	; and :
+KC_QUOTE	' and "
+KC_GRAVE	` and ~
+KC_COMMA	, and <
+KC_DOT	. and >
+KC_SLASH	/ and ?
+KC_CAPS_LOCK	Caps Lock
+KC_F1	F1
+KC_F2	F2
+KC_F3	F3
+KC_F4	F4
+KC_F5	F5
+KC_F6	F6
+KC_F7	F7
+KC_F8	F8
+KC_F9	F9
+KC_F10	F10
+KC_F11	F11
+KC_F12	F12
+KC_PRINT_SCREEN	Print Screen
+KC_SCROLL_LOCK	Scroll Lock, Brightness Down (macOS)
+KC_PAUSE	Pause, Brightness Up (macOS)
+KC_INSERT	Insert
+KC_HOME	Home
+KC_PAGE_UP	Page Up
+KC_DELETE	Forward Delete
+KC_END	End
+KC_PAGE_DOWN	Page Down
+KC_RIGHT	Right Arrow
+KC_LEFT	Left Arrow
+KC_DOWN	Down Arrow
+KC_UP	Up Arrow
+KC_NUM_LOCK	Keypad Num Lock and Clear
+KC_KP_SLASH	Keypad /
+KC_KP_ASTERISK	Keypad *
+KC_KP_MINUS	Keypad -
+KC_KP_PLUS	Keypad +
+KC_KP_ENTER	Keypad Enter
+KC_KP_1	Keypad 1 and End
+KC_KP_2	Keypad 2 and Down Arrow
+KC_KP_3	Keypad 3 and Page Down
+KC_KP_4	Keypad 4 and Left Arrow
+KC_KP_5	Keypad 5
+KC_KP_6	Keypad 6 and Right Arrow
+KC_KP_7	Keypad 7 and Home
+KC_KP_8	Keypad 8 and Up Arrow
+KC_KP_9	Keypad 9 and Page Up
+KC_KP_0	Keypad 0 and Insert
+KC_KP_DOT	Keypad . and Delete
+KC_NONUS_BACKSLASH	Non-US \ and |
+KC_APPLICATION	Application (Windows Context Menu Key)
+KC_KB_POWER	System Power
+KC_KP_EQUAL	Keypad =
+KC_F13	F13
+KC_F14	F14
+KC_F15	F15
+KC_F16	F16
+KC_F17	F17
+KC_F18	F18
+KC_F19	F19
+KC_F20	F20
+KC_F21	F21
+KC_F22	F22
+KC_F23	F23
+KC_F24	F24
+KC_EXECUTE	Execute
+KC_HELP	Help
+KC_MENU	Menu
+KC_SELECT	Select
+KC_STOP	Stop
+KC_AGAIN	Again
+KC_UNDO	Undo
+KC_CUT	Cut
+KC_COPY	Copy
+KC_PASTE	Paste
+KC_FIND	Find
+KC_KB_MUTE	Mute
+KC_KB_VOLUME_UP	Volume Up
+KC_KB_VOLUME_DOWN	Volume Down
+KC_LOCKING_CAPS_LOCK	Locking Caps Lock
+KC_LOCKING_NUM_LOCK	Locking Num Lock
+KC_LOCKING_SCROLL_LOCK	Locking Scroll Lock
+KC_KP_COMMA	Keypad ,
+KC_KP_EQUAL_AS400	Keypad = on AS/400 keyboards
+KC_INTERNATIONAL_1	International 1
+KC_INTERNATIONAL_2	International 2
+KC_INTERNATIONAL_3	International 3
+KC_INTERNATIONAL_4	International 4
+KC_INTERNATIONAL_5	International 5
+KC_INTERNATIONAL_6	International 6
+KC_INTERNATIONAL_7	International 7
+KC_INTERNATIONAL_8	International 8
+KC_INTERNATIONAL_9	International 9
+KC_LANGUAGE_1	Language 1
+KC_LANGUAGE_2	Language 2
+KC_LANGUAGE_3	Language 3
+KC_LANGUAGE_4	Language 4
+KC_LANGUAGE_5	Language 5
+KC_LANGUAGE_6	Language 6
+KC_LANGUAGE_7	Language 7
+KC_LANGUAGE_8	Language 8
+KC_LANGUAGE_9	Language 9
+KC_ALTERNATE_ERASE	Alternate Erase
+KC_SYSTEM_REQUEST	SysReq/Attention
+KC_CANCEL	Cancel
+KC_CLEAR	Clear
+KC_PRIOR	Prior
+KC_RETURN	Return
+KC_SEPARATOR	Separator
+KC_OUT	Out
+KC_OPER	Oper
+KC_CLEAR_AGAIN	Clear/Again
+KC_CRSEL	CrSel/Props
+KC_EXSEL	ExSel
+KC_LEFT_CTRL	Left Control
+KC_LEFT_SHIFT	Left Shift
+KC_LEFT_ALT	Left Alt (Option)
+KC_LEFT_GUI	Left GUI (Windows/Command/Meta key)
+KC_RIGHT_CTRL	Right Control
+KC_RIGHT_SHIFT	Right Shift
+KC_RIGHT_ALT	Right Alt (Option/AltGr)
+KC_RIGHT_GUI	Right GUI (Windows/Command/Meta key)
+KC_SYSTEM_POWER	System Power Down
+KC_SYSTEM_SLEEP	System Sleep
+KC_SYSTEM_WAKE	System Wake
+KC_AUDIO_MUTE	Mute
+KC_AUDIO_VOL_UP	Volume Up
+KC_AUDIO_VOL_DOWN	Volume Down
+KC_MEDIA_NEXT_TRACK	Next Track
+KC_MEDIA_PREV_TRACK	Previous Track
+KC_MEDIA_STOP	Stop Track
+KC_MEDIA_PLAY_PAUSE	Play/Pause Track
+KC_MEDIA_SELECT	Launch Media Player
+KC_MEDIA_EJECT	Eject
+KC_MAIL	Launch Mail
+KC_CALCULATOR	Launch Calculator
+KC_MY_COMPUTER	Launch My Computer
+KC_WWW_SEARCH	Browser Search
+KC_WWW_HOME	Browser Home
+KC_WWW_BACK	Browser Back
+KC_WWW_FORWARD	Browser Forward
+KC_WWW_STOP	Browser Stop
+KC_WWW_REFRESH	Browser Refresh
+KC_WWW_FAVORITES	Browser Favorites
+KC_MEDIA_FAST_FORWARD	Next Track
+KC_MEDIA_REWIND	Previous Track
+KC_BRIGHTNESS_UP	Brightness Up
+KC_BRIGHTNESS_DOWN	Brightness Down
+KC_CONTROL_PANEL	Open Control Panel
+KC_ASSISTANT	Launch Context-Aware Assistant
+KC_MISSION_CONTROL	Open Mission Control
+KC_LAUNCHPAD	Open Launchpad
+QK_BOOTLOADER	Put the keyboard into bootloader mode for flashing
+QK_DEBUG_TOGGLE	Toggle debug mode
+QK_CLEAR_EEPROM	Reinitializes the keyboard’s EEPROM (persistent memory)
+QK_MAKE	Sends qmk compile -kb (keyboard) -km (keymap), or qmk flash if shift is held. Puts keyboard into bootloader mode if shift & control are held
+QK_REBOOT	Resets the keyboard. Does not load the bootloader
+QK_AUDIO_ON	Turns on Audio Feature
+QK_AUDIO_OFF	Turns off Audio Feature
+QK_AUDIO_TOGGLE	Toggles Audio state
+QK_AUDIO_CLICKY_TOGGLE	Toggles Audio clicky mode
+QK_AUDIO_CLICKY_ON	Turns on Audio clicky mode
+QK_AUDIO_CLICKY_OFF	Turns on Audio clicky mode
+QK_AUDIO_CLICKY_UP	Increases frequency of the clicks
+QK_AUDIO_CLICKY_DOWN	Decreases frequency of the clicks
+QK_AUDIO_CLICKY_RESET	Resets frequency to default
+QK_MUSIC_ON	Turns on Music Mode
+QK_MUSIC_OFF	Turns off Music Mode
+QK_MUSIC_TOGGLE	Toggles Music Mode
+QK_MUSIC_MODE_NEXT	Cycles through the music modes
+QK_AUDIO_VOICE_NEXT	Cycles through the audio voices
+QK_AUDIO_VOICE_PREVIOUS	Cycles through the audio voices in reverse
+QK_AUTO_SHIFT_DOWN	Lower the Auto Shift timeout variable (down)
+QK_AUTO_SHIFT_UP	Raise the Auto Shift timeout variable (up)
+QK_AUTO_SHIFT_REPORT	Report your current Auto Shift timeout value
+QK_AUTO_SHIFT_ON	Turns on the Auto Shift Function
+QK_AUTO_SHIFT_OFF	Turns off the Auto Shift Function
+QK_AUTO_SHIFT_TOGGLE	Toggles the state of the Auto Shift feature
+QK_AUTOCORRECT_ON	Turns on the Autocorrect feature.
+QK_AUTOCORRECT_OFF	Turns off the Autocorrect feature.
+QK_AUTOCORRECT_TOGGLE	Toggles the status of the Autocorrect feature.
+QK_BACKLIGHT_TOGGLE	Turn the backlight on or off
+QK_BACKLIGHT_STEP	Cycle through backlight levels
+QK_BACKLIGHT_ON	Set the backlight to max brightness
+QK_BACKLIGHT_OFF	Turn the backlight off
+QK_BACKLIGHT_UP	Increase the backlight level
+QK_BACKLIGHT_DOWN	Decrease the backlight level
+QK_BACKLIGHT_TOGGLE_BREATHING	Toggle backlight breathing
+QK_OUTPUT_AUTO	Automatically switch between USB and Bluetooth
+QK_OUTPUT_USB	USB only
+QK_OUTPUT_BLUETOOTH	Bluetooth only
+QK_CAPS_WORD_TOGGLE	Toggles Caps Word
+QK_DYNAMIC_MACRO_RECORD_START_1	Start recording Macro 1
+QK_DYNAMIC_MACRO_RECORD_START_2	Start recording Macro 2
+QK_DYNAMIC_MACRO_PLAY_1	Replay Macro 1
+QK_DYNAMIC_MACRO_PLAY_2	Replay Macro 2
+QK_DYNAMIC_MACRO_RECORD_STOP	Finish the macro that is currently being recorded.
+QK_GRAVE_ESCAPE	Escape when pressed, ` when Shift or GUI are held
+QK_JOYSTICK_BUTTON_0	Button 0
+QK_JOYSTICK_BUTTON_1	Button 1
+QK_JOYSTICK_BUTTON_2	Button 2
+QK_JOYSTICK_BUTTON_3	Button 3
+QK_JOYSTICK_BUTTON_4	Button 4
+QK_JOYSTICK_BUTTON_5	Button 5
+QK_JOYSTICK_BUTTON_6	Button 6
+QK_JOYSTICK_BUTTON_7	Button 7
+QK_JOYSTICK_BUTTON_8	Button 8
+QK_JOYSTICK_BUTTON_9	Button 9
+QK_JOYSTICK_BUTTON_10	Button 10
+QK_JOYSTICK_BUTTON_11	Button 11
+QK_JOYSTICK_BUTTON_12	Button 12
+QK_JOYSTICK_BUTTON_13	Button 13
+QK_JOYSTICK_BUTTON_14	Button 14
+QK_JOYSTICK_BUTTON_15	Button 15
+QK_JOYSTICK_BUTTON_16	Button 16
+QK_JOYSTICK_BUTTON_17	Button 17
+QK_JOYSTICK_BUTTON_18	Button 18
+QK_JOYSTICK_BUTTON_19	Button 19
+QK_JOYSTICK_BUTTON_20	Button 20
+QK_JOYSTICK_BUTTON_21	Button 21
+QK_JOYSTICK_BUTTON_22	Button 22
+QK_JOYSTICK_BUTTON_23	Button 23
+QK_JOYSTICK_BUTTON_24	Button 24
+QK_JOYSTICK_BUTTON_25	Button 25
+QK_JOYSTICK_BUTTON_26	Button 26
+QK_JOYSTICK_BUTTON_27	Button 27
+QK_JOYSTICK_BUTTON_28	Button 28
+QK_JOYSTICK_BUTTON_29	Button 29
+QK_JOYSTICK_BUTTON_30	Button 30
+QK_JOYSTICK_BUTTON_31	Button 31
+QK_LOCK	Hold down the next key pressed, until the key is pressed again
+DF(layer)	Set the base (default) layer
+MO(layer)	Momentarily turn on layer when pressed (requires KC_TRNS on destination layer)
+OSL(layer)	Momentarily activates layer until a key is pressed. See One Shot Keys for details.
+LM(layer, mod)	Momentarily turn on layer (like MO) with mod active as well. Where mod is a mods_bit. Mods can be viewed here. Example Implementation: LM(LAYER_1, MOD_LALT)
+LT(layer, kc)	Turn on layer when held, kc when tapped
+TG(layer)	Toggle layer on or off
+TO(layer)	Turns on layer and turns off all other layers, except the default layer
+TT(layer)	Normally acts like MO unless it’s tapped multiple times, which toggles layer on
+QK_LEAD	Begins a leader sequence
+QK_MAGIC_SWAP_CONTROL_CAPS_LOCK	Swap Caps Lock and Left Control
+QK_MAGIC_UNSWAP_CONTROL_CAPS_LOCK	Unswap Caps Lock and Left Control
+QK_MAGIC_TOGGLE_CONTROL_CAPS_LOCK	Toggle Caps Lock and Left Control swap
+QK_MAGIC_CAPS_LOCK_AS_CONTROL_ON	Treat Caps Lock as Control
+QK_MAGIC_CAPS_LOCK_AS_CONTROL_OFF	Stop treating Caps Lock as Control
+QK_MAGIC_SWAP_ESCAPE_CAPS_LOCK	Swap Caps Lock and Escape
+QK_MAGIC_UNSWAP_ESCAPE_CAPS_LOCK	Unswap Caps Lock and Escape
+QK_MAGIC_TOGGLE_ESCAPE_CAPS_LOCK	Toggle Caps Lock and Escape swap
+QK_MAGIC_SWAP_LCTL_LGUI	Swap Left Control and GUI
+QK_MAGIC_UNSWAP_LCTL_LGUI	Unswap Left Control and GUI
+QK_MAGIC_SWAP_RCTL_RGUI	Swap Right Control and GUI
+QK_MAGIC_UNSWAP_RCTL_RGUI	Unswap Right Control and GUI
+QK_MAGIC_SWAP_CTL_GUI	Swap Control and GUI on both sides
+QK_MAGIC_UNSWAP_CTL_GUI	Unswap Control and GUI on both sides
+QK_MAGIC_TOGGLE_CTL_GUI	Toggle Control and GUI swap on both sides
+QK_MAGIC_SWAP_LALT_LGUI	Swap Left Alt and GUI
+QK_MAGIC_UNSWAP_LALT_LGUI	Unswap Left Alt and GUI
+QK_MAGIC_SWAP_RALT_RGUI	Swap Right Alt and GUI
+QK_MAGIC_UNSWAP_RALT_RGUI	Unswap Right Alt and GUI
+QK_MAGIC_SWAP_ALT_GUI	Swap Alt and GUI on both sides
+QK_MAGIC_UNSWAP_ALT_GUI	Unswap Alt and GUI on both sides
+QK_MAGIC_TOGGLE_ALT_GUI	Toggle Alt and GUI swap on both sides
+QK_MAGIC_GUI_OFF	Disable the GUI keys
+QK_MAGIC_GUI_ON	Enable the GUI keys
+QK_MAGIC_TOGGLE_GUI	Toggles the status of the GUI keys
+QK_MAGIC_SWAP_GRAVE_ESC	Swap ` and Escape
+QK_MAGIC_UNSWAP_GRAVE_ESC	Unswap ` and Escape
+QK_MAGIC_SWAP_BACKSLASH_BACKSPACE	Swap \ and Backspace
+QK_MAGIC_UNSWAP_BACKSLASH_BACKSPACE	Unswap \ and Backspace
+QK_MAGIC_TOGGLE_BACKSLASH_BACKSPACE	Toggle \ and Backspace swap state
+QK_MAGIC_NKRO_ON	Enable N-key rollover
+QK_MAGIC_NKRO_OFF	Disable N-key rollover
+QK_MAGIC_TOGGLE_NKRO	Toggle N-key rollover
+QK_MAGIC_EE_HANDS_LEFT	Set the master half of a split keyboard as the left hand (for EE_HANDS)
+QK_MAGIC_EE_HANDS_RIGHT	Set the master half of a split keyboard as the right hand (for EE_HANDS)
+QK_MIDI_ON	Turn MIDI on
+QK_MIDI_OFF	Turn MIDI off
+QK_MIDI_TOGGLE	Toggle MIDI enabled
+QK_MIDI_NOTE_C_0	C octave 0
+QK_MIDI_NOTE_C_SHARP_0	C♯/D♭ octave 0
+QK_MIDI_NOTE_D_0	D octave 0
+QK_MIDI_NOTE_D_SHARP_0	D♯/E♭ octave 0
+QK_MIDI_NOTE_E_0	E octave 0
+QK_MIDI_NOTE_F_0	F octave 0
+QK_MIDI_NOTE_F_SHARP_0	F♯/G♭ octave 0
+QK_MIDI_NOTE_G_0	G octave 0
+QK_MIDI_NOTE_G_SHARP_0	G♯/A♭ octave 0
+QK_MIDI_NOTE_A_0	A octave 0
+QK_MIDI_NOTE_A_SHARP_0	A♯/B♭ octave 0
+QK_MIDI_NOTE_B_0	B octave 0
+QK_MIDI_NOTE_C_1	C octave 1
+QK_MIDI_NOTE_C_SHARP_1	C♯/D♭ octave 1
+QK_MIDI_NOTE_D_1	D octave 1
+QK_MIDI_NOTE_D_SHARP_1	D♯/E♭ octave 1
+QK_MIDI_NOTE_E_1	E octave 1
+QK_MIDI_NOTE_F_1	F octave 1
+QK_MIDI_NOTE_F_SHARP_1	F♯/G♭ octave 1
+QK_MIDI_NOTE_G_1	G octave 1
+QK_MIDI_NOTE_G_SHARP_1	G♯/A♭ octave 1
+QK_MIDI_NOTE_A_1	A octave 1
+QK_MIDI_NOTE_A_SHARP_1	A♯/B♭ octave 1
+QK_MIDI_NOTE_B_1	B octave 1
+QK_MIDI_NOTE_C_2	C octave 2
+QK_MIDI_NOTE_C_SHARP_2	C♯/D♭ octave 2
+QK_MIDI_NOTE_D_2	D octave 2
+QK_MIDI_NOTE_D_SHARP_2	D♯/E♭ octave 2
+QK_MIDI_NOTE_E_2	E octave 2
+QK_MIDI_NOTE_F_2	F octave 2
+QK_MIDI_NOTE_F_SHARP_2	F♯/G♭ octave 2
+QK_MIDI_NOTE_G_2	G octave 2
+QK_MIDI_NOTE_G_SHARP_2	G♯/A♭ octave 2
+QK_MIDI_NOTE_A_2	A octave 2
+QK_MIDI_NOTE_A_SHARP_2	A♯/B♭ octave 2
+QK_MIDI_NOTE_B_2	B octave 2
+QK_MIDI_NOTE_C_3	C octave 3
+QK_MIDI_NOTE_C_SHARP_3	C♯/D♭ octave 3
+QK_MIDI_NOTE_D_3	D octave 3
+QK_MIDI_NOTE_D_SHARP_3	D♯/E♭ octave 3
+QK_MIDI_NOTE_E_3	E octave 3
+QK_MIDI_NOTE_F_3	F octave 3
+QK_MIDI_NOTE_F_SHARP_3	F♯/G♭ octave 3
+QK_MIDI_NOTE_G_3	G octave 3
+QK_MIDI_NOTE_G_SHARP_3	G♯/A♭ octave 3
+QK_MIDI_NOTE_A_3	A octave 3
+QK_MIDI_NOTE_A_SHARP_3	A♯/B♭ octave 3
+QK_MIDI_NOTE_B_3	B octave 3
+QK_MIDI_NOTE_C_4	C octave 4
+QK_MIDI_NOTE_C_SHARP_4	C♯/D♭ octave 4
+QK_MIDI_NOTE_D_4	D octave 4
+QK_MIDI_NOTE_D_SHARP_4	D♯/E♭ octave 4
+QK_MIDI_NOTE_E_4	E octave 4
+QK_MIDI_NOTE_F_4	F octave 4
+QK_MIDI_NOTE_F_SHARP_4	F♯/G♭ octave 4
+QK_MIDI_NOTE_G_4	G octave 4
+QK_MIDI_NOTE_G_SHARP_4	G♯/A♭ octave 4
+QK_MIDI_NOTE_A_4	A octave 4
+QK_MIDI_NOTE_A_SHARP_4	A♯/B♭ octave 4
+QK_MIDI_NOTE_B_4	B octave 4
+QK_MIDI_NOTE_C_5	C octave 5
+QK_MIDI_NOTE_C_SHARP_5	C♯/D♭ octave 5
+QK_MIDI_NOTE_D_5	D octave 5
+QK_MIDI_NOTE_D_SHARP_5	D♯/E♭ octave 5
+QK_MIDI_NOTE_E_5	E octave 5
+QK_MIDI_NOTE_F_5	F octave 5
+QK_MIDI_NOTE_F_SHARP_5	F♯/G♭ octave 5
+QK_MIDI_NOTE_G_5	G octave 5
+QK_MIDI_NOTE_G_SHARP_5	G♯/A♭ octave 5
+QK_MIDI_NOTE_A_5	A octave 5
+QK_MIDI_NOTE_A_SHARP_5	A♯/B♭ octave 5
+QK_MIDI_NOTE_B_5	B octave 5
+QK_MIDI_OCTAVE_N2	Set octave to -2
+QK_MIDI_OCTAVE_N1	Set octave to -1
+QK_MIDI_OCTAVE_0	Set octave to 0
+QK_MIDI_OCTAVE_1	Set octave to 1
+QK_MIDI_OCTAVE_2	Set octave to 2
+QK_MIDI_OCTAVE_3	Set octave to 3
+QK_MIDI_OCTAVE_4	Set octave to 4
+QK_MIDI_OCTAVE_5	Set octave to 5
+QK_MIDI_OCTAVE_6	Set octave to 6
+QK_MIDI_OCTAVE_7	Set octave to 7
+QK_MIDI_OCTAVE_DOWN	Move down an octave
+QK_MIDI_OCTAVE_UP	Move up an octave
+QK_MIDI_TRANSPOSE_N6	Set transposition to -6 semitones
+QK_MIDI_TRANSPOSE_N5	Set transposition to -5 semitones
+QK_MIDI_TRANSPOSE_N4	Set transposition to -4 semitones
+QK_MIDI_TRANSPOSE_N3	Set transposition to -3 semitones
+QK_MIDI_TRANSPOSE_N2	Set transposition to -2 semitones
+QK_MIDI_TRANSPOSE_N1	Set transposition to -1 semitone
+QK_MIDI_TRANSPOSE_0	No transposition
+QK_MIDI_TRANSPOSE_1	Set transposition to +1 semitone
+QK_MIDI_TRANSPOSE_2	Set transposition to +2 semitones
+QK_MIDI_TRANSPOSE_3	Set transposition to +3 semitones
+QK_MIDI_TRANSPOSE_4	Set transposition to +4 semitones
+QK_MIDI_TRANSPOSE_5	Set transposition to +5 semitones
+QK_MIDI_TRANSPOSE_6	Set transposition to +6 semitones
+QK_MIDI_TRANSPOSE_DOWN	Decrease transposition
+QK_MIDI_TRANSPOSE_UP	Increase transposition
+QK_MIDI_VELOCITY_0	Set velocity to 0
+QK_MIDI_VELOCITY_1	Set velocity to 12
+QK_MIDI_VELOCITY_2	Set velocity to 25
+QK_MIDI_VELOCITY_3	Set velocity to 38
+QK_MIDI_VELOCITY_4	Set velocity to 51
+QK_MIDI_VELOCITY_5	Set velocity to 64
+QK_MIDI_VELOCITY_6	Set velocity to 76
+QK_MIDI_VELOCITY_7	Set velocity to 89
+QK_MIDI_VELOCITY_8	Set velocity to 102
+QK_MIDI_VELOCITY_9	Set velocity to 114
+QK_MIDI_VELOCITY_10	Set velocity to 127
+QK_MIDI_VELOCITY_DOWN	Decrease velocity
+QK_MIDI_VELOCITY_UP	Increase velocity
+QK_MIDI_CHANNEL_1	Set channel to 1
+QK_MIDI_CHANNEL_2	Set channel to 2
+QK_MIDI_CHANNEL_3	Set channel to 3
+QK_MIDI_CHANNEL_4	Set channel to 4
+QK_MIDI_CHANNEL_5	Set channel to 5
+QK_MIDI_CHANNEL_6	Set channel to 6
+QK_MIDI_CHANNEL_7	Set channel to 7
+QK_MIDI_CHANNEL_8	Set channel to 8
+QK_MIDI_CHANNEL_9	Set channel to 9
+QK_MIDI_CHANNEL_10	Set channel to 10
+QK_MIDI_CHANNEL_11	Set channel to 11
+QK_MIDI_CHANNEL_12	Set channel to 12
+QK_MIDI_CHANNEL_13	Set channel to 13
+QK_MIDI_CHANNEL_14	Set channel to 14
+QK_MIDI_CHANNEL_15	Set channel to 15
+QK_MIDI_CHANNEL_16	Set channel to 16
+QK_MIDI_CHANNEL_DOWN	Decrease channel
+QK_MIDI_CHANNEL_UP	Increase channel
+QK_MIDI_ALL_NOTES_OFF	Stop all notes
+QK_MIDI_SUSTAIN	Sustain
+QK_MIDI_PORTAMENTO	Portmento
+QK_MIDI_SOSTENUTO	Sostenuto
+QK_MIDI_SOFT	Soft Pedal
+QK_MIDI_LEGATO	Legato
+QK_MIDI_MODULATION	Modulation
+QK_MIDI_MODULATION_SPEED_DOWN	Decrease modulation speed
+QK_MIDI_MODULATION_SPEED_UP	Increase modulation speed
+QK_MIDI_PITCH_BEND_DOWN	Bend pitch down
+QK_MIDI_PITCH_BEND_UP	Bend pitch up
+KC_MS_UP	Mouse Cursor Up
+KC_MS_DOWN	Mouse Cursor Down
+KC_MS_LEFT	Mouse Cursor Left
+KC_MS_RIGHT	Mouse Cursor Right
+KC_MS_BTN1	Mouse Button 1
+KC_MS_BTN2	Mouse Button 2
+KC_MS_BTN3	Mouse Button 3
+KC_MS_BTN4	Mouse Button 4
+KC_MS_BTN5	Mouse Button 5
+KC_MS_WH_UP	Mouse Wheel Up
+KC_MS_WH_DOWN	Mouse Wheel Down
+KC_MS_WH_LEFT	Mouse Wheel Left
+KC_MS_WH_RIGHT	Mouse Wheel Right
+KC_MS_ACCEL0	Set mouse acceleration to 0
+KC_MS_ACCEL1	Set mouse acceleration to 1
+KC_MS_ACCEL2	Set mouse acceleration to 2
+LCTL(kc)	Hold Left Control and press kc
+LSFT(kc)	Hold Left Shift and press kc
+LALT(kc)	Hold Left Alt and press kc
+LGUI(kc)	Hold Left GUI and press kc
+RCTL(kc)	Hold Right Control and press kc
+RSFT(kc)	Hold Right Shift and press kc
+RALT(kc)	Hold Right Alt (AltGr) and press kc
+RGUI(kc)	Hold Right GUI and press kc
+LSG(kc)	Hold Left Shift and Left GUI and press kc
+LAG(kc)	Hold Left Alt and Left GUI and press kc
+RSG(kc)	Hold Right Shift and Right GUI and press kc
+RAG(kc)	Hold Right Alt and Right GUI and press kc
+LCA(kc)	Hold Left Control and Alt and press kc
+LSA(kc)	Hold Left Shift and Left Alt and press kc
+RSA(kc)	Hold Right Shift and Right Alt (AltGr) and press kc
+RCS(kc)	Hold Right Control and Right Shift and press kc
+LCAG(kc)	Hold Left Control, Alt and GUI and press kc
+MEH(kc)	Hold Left Control, Shift and Alt and press kc
+HYPR(kc)	Hold Left Control, Shift, Alt and GUI and press kc
+KC_MEH	Left Control, Shift and Alt
+KC_HYPR	Left Control, Shift, Alt and GUI
+MT(mod, kc)	mod when held, kc when tapped
+LCTL_T(kc)	Left Control when held, kc when tapped
+LSFT_T(kc)	Left Shift when held, kc when tapped
+LALT_T(kc)	Left Alt when held, kc when tapped
+LGUI_T(kc)	Left GUI when held, kc when tapped
+RCTL_T(kc)	Right Control when held, kc when tapped
+RSFT_T(kc)	Right Shift when held, kc when tapped
+RALT_T(kc)	Right Alt (AltGr) when held, kc when tapped
+RGUI_T(kc)	Right GUI when held, kc when tapped
+LSG_T(kc)	Left Shift and GUI when held, kc when tapped
+LAG_T(kc)	Left Alt and GUI when held, kc when tapped
+RSG_T(kc)	Right Shift and GUI when held, kc when tapped
+RAG_T(kc)	Right Alt and GUI when held, kc when tapped
+LCA_T(kc)	Left Control and Alt when held, kc when tapped
+LSA_T(kc)	Left Shift and Left Alt when held, kc when tapped
+RSA_T(kc)	Right Shift and Right Alt (AltGr) when held, kc when tapped
+RCS_T(kc)	Right Control and Right Shift when held, kc when tapped
+LCAG_T(kc)	Left Control, Alt and GUI when held, kc when tapped
+RCAG_T(kc)	Right Control, Alt and GUI when held, kc when tapped
+C_S_T(kc)	Left Control and Shift when held, kc when tapped
+MEH_T(kc)	Left Control, Shift and Alt when held, kc when tapped
+HYPR_T(kc)	Left Control, Shift, Alt and GUI when held, kc when tapped - more info here
+QK_DYNAMIC_TAPPING_TERM_PRINT	Types the current tapping term, in milliseconds
+QK_DYNAMIC_TAPPING_TERM_UP	Increases the current tapping term by DYNAMIC_TAPPING_TERM_INCREMENTms (5ms by default)
+QK_DYNAMIC_TAPPING_TERM_DOWN	Decreases the current tapping term by DYNAMIC_TAPPING_TERM_INCREMENTms (5ms by default)
+RGB_TOG	Toggle RGB lighting on or off
+RGB_MODE_FORWARD	Cycle through modes, reverse direction when Shift is held
+RGB_MODE_REVERSE	Cycle through modes in reverse, forward direction when Shift is held
+RGB_HUI	Increase hue, decrease hue when Shift is held
+RGB_HUD	Decrease hue, increase hue when Shift is held
+RGB_SAI	Increase saturation, decrease saturation when Shift is held
+RGB_SAD	Decrease saturation, increase saturation when Shift is held
+RGB_VAI	Increase value (brightness), decrease value when Shift is held
+RGB_VAD	Decrease value (brightness), increase value when Shift is held
+RGB_MODE_PLAIN	Static (no animation) mode
+RGB_MODE_BREATHE	Breathing animation mode
+RGB_MODE_RAINBOW	Rainbow animation mode
+RGB_MODE_SWIRL	Swirl animation mode
+RGB_MODE_SNAKE	Snake animation mode
+RGB_MODE_KNIGHT	“Knight Rider” animation mode
+RGB_MODE_XMAS	Christmas animation mode
+RGB_MODE_GRADIENT	Static gradient animation mode
+RGB_MODE_RGBTEST	Red,Green,Blue test animation mode
+RGB_TOG	Toggle RGB lighting on or off
+RGB_MODE_FORWARD	Cycle through modes, reverse direction when Shift is held
+RGB_MODE_REVERSE	Cycle through modes in reverse, forward direction when Shift is held
+RGB_HUI	Increase hue, decrease hue when Shift is held
+RGB_HUD	Decrease hue, increase hue when Shift is held
+RGB_SAI	Increase saturation, decrease saturation when Shift is held
+RGB_SAD	Decrease saturation, increase saturation when Shift is held
+RGB_VAI	Increase value (brightness), decrease value when Shift is held
+RGB_VAD	Decrease value (brightness), increase value when Shift is held
+RGB_SPI	Increase effect speed (does not support eeprom yet), decrease speed when Shift is held
+RGB_SPD	Decrease effect speed (does not support eeprom yet), increase speed when Shift is held
+KC_TILDE	~
+KC_EXCLAIM	!
+KC_AT	@
+KC_HASH	#
+KC_DOLLAR	$
+KC_PERCENT	%
+KC_CIRCUMFLEX	^
+KC_AMPERSAND	&
+KC_ASTERISK	*
+KC_LEFT_PAREN	(
+KC_RIGHT_PAREN	)
+KC_UNDERSCORE	_
+KC_PLUS	=+
+KC_LEFT_CURLY_BRACE	{
+KC_RIGHT_CURLY_BRACE	}
+KC_PIPE	|
+KC_COLON	:
+KC_DOUBLE_QUOTE	"
+KC_LEFT_ANGLE_BRACKET	<
+KC_RIGHT_ANGLE_BRACKET	>
+KC_QUESTION	?
+OSM(mod)	Hold mod for one keypress
+OSL(layer)	Switch to layer for one keypress
+QK_ONE_SHOT_TOGGLE	Toggles One Shot keys status
+QK_ONE_SHOT_ON	Turns One Shot keys on
+QK_ONE_SHOT_OFF	Turns One Shot keys off
+QK_PROGRAMMABLE_BUTTON_1	Programmable button 1
+QK_PROGRAMMABLE_BUTTON_2	Programmable button 2
+QK_PROGRAMMABLE_BUTTON_3	Programmable button 3
+QK_PROGRAMMABLE_BUTTON_4	Programmable button 4
+QK_PROGRAMMABLE_BUTTON_5	Programmable button 5
+QK_PROGRAMMABLE_BUTTON_6	Programmable button 6
+QK_PROGRAMMABLE_BUTTON_7	Programmable button 7
+QK_PROGRAMMABLE_BUTTON_8	Programmable button 8
+QK_PROGRAMMABLE_BUTTON_9	Programmable button 9
+QK_PROGRAMMABLE_BUTTON_10	Programmable button 10
+QK_PROGRAMMABLE_BUTTON_11	Programmable button 11
+QK_PROGRAMMABLE_BUTTON_12	Programmable button 12
+QK_PROGRAMMABLE_BUTTON_13	Programmable button 13
+QK_PROGRAMMABLE_BUTTON_14	Programmable button 14
+QK_PROGRAMMABLE_BUTTON_15	Programmable button 15
+QK_PROGRAMMABLE_BUTTON_16	Programmable button 16
+QK_PROGRAMMABLE_BUTTON_17	Programmable button 17
+QK_PROGRAMMABLE_BUTTON_18	Programmable button 18
+QK_PROGRAMMABLE_BUTTON_19	Programmable button 19
+QK_PROGRAMMABLE_BUTTON_20	Programmable button 20
+QK_PROGRAMMABLE_BUTTON_21	Programmable button 21
+QK_PROGRAMMABLE_BUTTON_22	Programmable button 22
+QK_PROGRAMMABLE_BUTTON_23	Programmable button 23
+QK_PROGRAMMABLE_BUTTON_24	Programmable button 24
+QK_PROGRAMMABLE_BUTTON_25	Programmable button 25
+QK_PROGRAMMABLE_BUTTON_26	Programmable button 26
+QK_PROGRAMMABLE_BUTTON_27	Programmable button 27
+QK_PROGRAMMABLE_BUTTON_28	Programmable button 28
+QK_PROGRAMMABLE_BUTTON_29	Programmable button 29
+QK_PROGRAMMABLE_BUTTON_30	Programmable button 30
+QK_PROGRAMMABLE_BUTTON_31	Programmable button 31
+QK_PROGRAMMABLE_BUTTON_32	Programmable button 32
+QK_REPEAT_KEY	Repeat the last pressed key
+QK_ALT_REPEAT_KEY	Perform alternate of the last key
+QK_SPACE_CADET_LEFT_CTRL_PARENTHESIS_OPEN	Left Control when held, ( when tapped
+QK_SPACE_CADET_RIGHT_CTRL_PARENTHESIS_CLOSE	Right Control when held, ) when tapped
+QK_SPACE_CADET_LEFT_SHIFT_PARENTHESIS_OPEN	Left Shift when held, ( when tapped
+QK_SPACE_CADET_RIGHT_SHIFT_PARENTHESIS_CLOSE	Right Shift when held, ) when tapped
+QK_SPACE_CADET_LEFT_ALT_PARENTHESIS_OPEN	Left Alt when held, ( when tapped
+QK_SPACE_CADET_RIGHT_ALT_PARENTHESIS_CLOSE	Right Alt when held, ) when tapped
+QK_SPACE_CADET_RIGHT_SHIFT_ENTER	Right Shift when held, Enter when tapped
+SH_T(kc)	Momentary swap when held, kc when tapped
+QK_SWAP_HANDS_ON	Turn on hand swap
+QK_SWAP_HANDS_OFF	Turn off hand swap
+QK_SWAP_HANDS_MOMENTARY_ON	Turn on hand swap while held
+QK_SWAP_HANDS_MOMENTARY_OFF	Turn off hand swap while held
+QK_SWAP_HANDS_TOGGLE	Toggle hand swap
+QK_SWAP_HANDS_TAP_TOGGLE	Momentary swap when held, toggle when tapped
+QK_SWAP_HANDS_ONE_SHOT	Turn on hand swap while held or until next key press
+UC(c)	Send Unicode code point c, up to 0x7FFF
+X(i)	Send Unicode code point at index i in unicode_map
+XP(i, j)	Send Unicode code point at index i, or j if Shift/Caps is on
+QK_UNICODE_MODE_NEXT	Cycle through selected input modes
+QK_UNICODE_MODE_PREVIOUS	Cycle through selected input modes in reverse
+QK_UNICODE_MODE_MACOS	Switch to macOS input
+QK_UNICODE_MODE_LINUX	Switch to Linux input
+QK_UNICODE_MODE_WINDOWS	Switch to Windows input
+QK_UNICODE_MODE_BSD	Switch to BSD input (not implemented)
+QK_UNICODE_MODE_WINCOMPOSE	Switch to Windows input using WinCompose
+QK_UNICODE_MODE_EMACS	Switch to emacs (C-x-8 RET)

@@ -120,7 +120,21 @@ const convertToLabel = (name: string): string => {
     .join(' ');
 };
 
+const loadQmkKeycodesDescriptionsFile = (): { [p: string]: string } => {
+  console.log('Loading keycode descriptions file...');
+  const body = fs.readFileSync('./src/qmk-keycodes-descriptions.tsv', 'utf8');
+  const result: { [p: string]: string } = {};
+  const lines = body.split('\r\n');
+  for (const line of lines) {
+    const [keycode, desc] = line.split('\t');
+    result[keycode] = desc;
+  }
+  console.log('Loading keycode descriptions file... Done.');
+  return result;
+};
+
 const main = async (): Promise<void> => {
+  const descriptionMap = loadQmkKeycodesDescriptionsFile();
   const qmkKeycodesPerCategory = loadQmkKeycodesJsonFiles();
   const qmkKeycodes = processKeycodes(qmkKeycodesPerCategory);
   const newKeyInfoList: KeyInfo[] = [];
@@ -130,9 +144,16 @@ const main = async (): Promise<void> => {
     const keyInfo = keyInfoList.find(
       (keyInfo) => keyInfo.keycodeInfo.code === code
     );
+    let newKeyInfo: KeyInfo;
     if (keyInfo !== undefined) {
-      newKeyInfoList.push({
+      if (qmkKeycode.key !== keyInfo.keycodeInfo.name.long) {
+        console.log(
+          `Keycode mismatch: ${qmkKeycode.key} vs ${keyInfo.keycodeInfo.name.long}`
+        );
+      }
+      newKeyInfo = {
         desc:
+          descriptionMap[qmkKeycode.key] ||
           keyInfo.desc ||
           (qmkKeycode.label
             ? qmkKeycode.label
@@ -151,13 +172,16 @@ const main = async (): Promise<void> => {
               : qmkKeycode.key,
           },
           keywords: keyInfo.keycodeInfo.keywords,
+          ascii: keyInfo.keycodeInfo.ascii,
         },
-      });
+      };
     } else {
-      newKeyInfoList.push({
-        desc: qmkKeycode.label
-          ? qmkKeycode.label
-          : convertToLabel(qmkKeycode.key),
+      newKeyInfo = {
+        desc:
+          descriptionMap[qmkKeycode.key] ||
+          (qmkKeycode.label
+            ? qmkKeycode.label
+            : convertToLabel(qmkKeycode.key)),
         keycodeInfo: {
           code,
           label: qmkKeycode.label
@@ -175,8 +199,9 @@ const main = async (): Promise<void> => {
               : convertToLabel(qmkKeycode.key),
           ],
         },
-      });
+      };
     }
+    newKeyInfoList.push(newKeyInfo);
   }
   fs.writeFileSync('output.json', JSON.stringify(newKeyInfoList, null, 2));
 };
